@@ -28,6 +28,29 @@ two-dimensional projections](http://web.maths.unsw.edu.au/~fkuo/sobol/).
 
 # Publications
 
+## [Low-Discrepancy Quasi-Uniform Digital Nets in Every Dimension](https://github.com/lgruen/separated-nets-lean)
+
+Preprint, version 1, 2026.
+
+Lean 4 formalization of the main theorem: [Palomar entry
+PALOMAR-2026-10-13-000011](https://palomar-registry.org/entry?id=PALOMAR-2026-10-13-000011&version=1).
+Code and paper sources archived at [Zenodo](https://doi.org/10.5281/zenodo.23327748). Also see the [Lean
+blueprint](https://lgruen.github.io/separated-nets-lean/blueprint/) and the [interactive
+explainers](https://lgruen.github.io/separated-nets-lean/explainers/).
+
+*Abstract:* Dick, Goda and Suzuki asked for low-discrepancy digital nets that are
+quasi-uniform, with minimum distance $$\delta$$ and covering radius both of the optimal order
+$$N^{-1/s}$$, and stated the problem as open in dimension $$s\ge3$$. We construct such nets
+in every dimension. For every $$s\ge3$$, every base $$q$$ whose prime factors are at least
+$$s-1$$, and every $$k\ge1$$, we give explicit digital $$(0,sk,s)$$-nets over
+$$\mathbb{Z}/q\mathbb{Z}$$ with $$N=q^{sk}$$ points, covering radius at most
+$$\sqrt{s}\,N^{-1/s}$$, and $$\delta N^{1/s}\ge1-a^*_s/q$$ once $$q\ge5a^*_s+4$$. In prime bases these
+families are well separated in the sense of Dick, Goda and Suzuki, and they stay so under
+every digital shift. The results are formalized in Lean 4, apart from some finite
+computations, which are checked by scripts. The constructions, proofs and formalization
+were produced by AI systems (Anthropic Claude) under my direction; see the AI-use
+statement in the paper.
+
 ## [SIGGRAPH 2012 course: Advanced (Quasi-) Monte Carlo Methods for Image Synthesis](https://sites.google.com/site/qmcrendering/)
 
 with S. Premoze, A. Keller, and M. Raab.
