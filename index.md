@@ -28,13 +28,14 @@ two-dimensional projections](http://web.maths.unsw.edu.au/~fkuo/sobol/).
 
 # Publications
 
-## [Low-Discrepancy Quasi-Uniform Digital Nets in Every Dimension](https://github.com/lgruen/separated-nets-lean)
+## [Low-Discrepancy Quasi-Uniform Digital Nets in Every Dimension](https://hexagonmath.org/abs/2610.00217v1)
 
-Preprint, version 1, 2026.
+Preprint, version 1, 2026: [hexagon:2610.00217v1](https://hexagonmath.org/abs/2610.00217v1).
 
 Lean 4 formalization of the main theorem: [Palomar entry
 PALOMAR-2026-10-13-000011](https://palomar-registry.org/entry?id=PALOMAR-2026-10-13-000011&version=1).
-Code and paper sources archived at [Zenodo](https://doi.org/10.5281/zenodo.23327748). Also see the [Lean
+[Code and Lean library](https://github.com/lgruen/separated-nets-lean), archived at
+[Zenodo](https://doi.org/10.5281/zenodo.23327748). Also see the [Lean
 blueprint](https://lgruen.github.io/separated-nets-lean/blueprint/) and the [interactive
 explainers](https://lgruen.github.io/separated-nets-lean/explainers/).
 
