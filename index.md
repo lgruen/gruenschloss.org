@@ -28,9 +28,39 @@ two-dimensional projections](http://web.maths.unsw.edu.au/~fkuo/sobol/).
 
 # Publications
 
+## [Low-Discrepancy Quasi-Uniform Digital Sequences in Every Dimension](https://github.com/lgruen/quasi-uniform-sequences-lean)
+
+Preprint, version 1, 2026. Companion to the paper on nets below.
+
+Lean 4 formalization of the headline results: [Palomar entry
+PALOMAR-2026-10-29-000041](https://palomar-registry.org/entry?id=PALOMAR-2026-10-29-000041&version=1).
+[Code, Lean library and verification archive](https://github.com/lgruen/quasi-uniform-sequences-lean), archived at
+[Zenodo](https://doi.org/10.5281/zenodo.23769767). Also see the [interactive
+explainers](https://lgruen.github.io/quasi-uniform-sequences-lean/explainers/).
+
+*Abstract:* A sequence of points in the unit cube is quasi-uniform if its first $$N$$ points are
+spread like a grid for every $$N$$: minimum distance $$\delta$$ and covering radius both of the
+optimal order $$N^{-1/s}$$. Dick, Goda and Suzuki asked for such sequences among the digital
+sequences of quasi-Monte Carlo integration, and Goda, Hofer and Suzuki asked whether any
+Halton-type sequence is quasi-uniform. In dimension two and higher no Halton-type sequence, no
+Sobol' sequence, no classical Niederreiter sequence and no Faure sequence is quasi-uniform: a
+carry in the last digits of one coordinate leaves the leading digits of all coordinates
+unchanged, giving explicit pairs of points that are far too close. One fixed linear scramble of
+a generalized Faure sequence, the same for all numbers of points, repairs this: the residue
+theorem ties the coordinates together, so that a carry in one coordinate is seen by the others.
+For every dimension $$s$$ and every prime base $$p>2^s$$ this gives explicit quasi-uniform
+digital $$(0,s)$$-sequences, hence of low discrepancy, whose first $$N=p^{sK-1}$$ points are at
+least $$(1-2p^{-1/s})N^{-1/s}$$ apart for every $$K$$; in dimensions two and three, for every prime
+$$p\ge5$$, a variant keeps its first $$N$$ points at least $$(1-2/p)N^{-1/s}$$ apart whenever $$N$$
+is a power of $$p^{s^2}$$. The results are formalized in Lean 4, apart from some finite
+computations, which are checked by scripts. The constructions, proofs and formalization were
+produced by an AI system (Anthropic Claude Opus 5.5) under my direction; see the AI-use
+statement in the paper.
+
 ## [Low-Discrepancy Quasi-Uniform Digital Nets in Every Dimension](https://hexagonmath.org/abs/2610.00217v1)
 
 Preprint, version 1, 2026: [hexagon:2610.00217v1](https://hexagonmath.org/abs/2610.00217v1).
+The companion paper above treats sequences.
 
 Lean 4 formalization of the main theorem: [Palomar entry
 PALOMAR-2026-10-13-000011](https://palomar-registry.org/entry?id=PALOMAR-2026-10-13-000011&version=1).
