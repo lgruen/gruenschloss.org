@@ -28,9 +28,10 @@ two-dimensional projections](http://web.maths.unsw.edu.au/~fkuo/sobol/).
 
 # Publications
 
-## [Low-Discrepancy Quasi-Uniform Digital Sequences in Every Dimension](https://github.com/lgruen/quasi-uniform-sequences-lean)
+## [Low-Discrepancy Quasi-Uniform Digital Sequences in Every Dimension](https://hexagonmath.org/abs/2610.00664v1)
 
-Preprint, version 1, 2026. Companion to the paper on nets below.
+Preprint, version 1, 2026: [hexagon:2610.00664v1](https://hexagonmath.org/abs/2610.00664v1).
+Companion to the paper on nets below.
 
 Lean 4 formalization of the headline results: [Palomar entry
 PALOMAR-2026-10-29-000041](https://palomar-registry.org/entry?id=PALOMAR-2026-10-29-000041&version=1).
